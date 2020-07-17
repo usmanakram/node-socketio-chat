@@ -1,0 +1,32 @@
+{
+  "name": "node-socketio-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmanakram/node-socketio-chat.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Usman Akram <usman.akram99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usmanakram/node-socketio-chat/issues"
+  },
+  "homepage": "https://github.com/usmanakram/node-socketio-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
